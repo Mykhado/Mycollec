@@ -409,12 +409,19 @@ footer {
   .footer-schedule h3,
 
   .footer-medias h3 {
-
-      padding-bottom: 5px;
+    font-size: 1.5rem;
+	padding-bottom: 5px;
 
   }
-
-
+  .footer-contact a{
+    font-size: 1rem;
+  }
+  .copyright a{
+    font-size: 1rem;
+  }
+  .footer-medias{
+    margin-top: 50px;
+  }
 
 }
 
