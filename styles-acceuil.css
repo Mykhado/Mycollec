@@ -210,16 +210,15 @@ section div p{
 
 /* test rubriques format blog-post */
 .blog-posts{
-    /* width: min(1200px, 100%); */
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    cursor: pointer;
-    width: 80%;
-    margin: 10%;
-    
-    
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  cursor: pointer;
+  width: 80%;
+  margin: 10%;
 }
+
   
   .post{
     margin-top: 50px;
