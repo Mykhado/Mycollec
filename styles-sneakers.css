@@ -338,16 +338,16 @@ button {
 }
 @media screen and (max-width: 400px){
   .image-card{
-    width: 200px;
-    height: 90px;
+    width: 250px;
+    height: 140px;
     border-radius: 20px;
 
   }
 
   .card{
     position: relative;
-    width: 200px;
-    height: 90px;
+    width: 250px;
+    height: 140px;
     cursor: pointer;
     transform-style: preserve-3d;
     transition: 0.5s;
