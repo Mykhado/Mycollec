@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@font-face {
+    font-family: 'komika_axisregular';
+    src: url('font/komikax/KOMIKAX_-webfont.eot');
+    src: url('font/komikax/KOMIKAX_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/komikax/KOMIKAX_-webfont.woff2') format('woff2'),
+         url('font/komikax/KOMIKAX_-webfont.woff') format('woff'),
+         url('font/komikax/KOMIKAX_-webfont.ttf') format('truetype'),
+         url('font/komikax/KOMIKAX_-webfont.svg#komika_axisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Rounded_Elegance';
+    src: url('font/rounded/Rounded_Elegance.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    /* background avec image violet,jaune,noir */
+    /* background-image: url(media/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw; */
+    background: #232323;
+  
+}
+  /* test background avec image svg */
+/* .background{
+    height: 75vh;
+    width: 100%;
+    background: #232222;
+}
+@media screen and (max-width:590px){
+    .background{
+        height: 85vh;
+    }
+}
+.fond-ellipse{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    display: block;
+} */
+ #titre{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    /* banniere titre de base sur fond blanc */
+    /* background-color: whitesmoke;
+    opacity: 0.7;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-radius: 50px;
+    box-shadow: -10px 12px 25px 0px rgba(0,0,0,0.53); */
+    border-radius: 25px;
+    background: #232323;
+    box-shadow:  5px 5px 7px #141414,
+                 -5px -5px 7px #323232;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+h1{
+    font-family: 'Rounded_Elegance', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#413D3D;
+    text-align: center;
+    font-size: 12vw;
+    font-weight: bold;
+    /* text-shadow: 10px 10px 4px rgba(20,20,20,1); */
+    text-shadow:  5px 5px 7px #141414,
+    -5px -5px 7px #323232;
+    
+} 
+h2{
+    font-family: 'Rounded_Elegance', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#413D3D;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4vw;
+    text-shadow:  5px 5px 7px #141414,
+    -5px -5px 7px #323232;
+   
+
+}
+#navigation {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    background: #232323;
+    box-shadow: 5px 5px 7px #141414, -5px -5px 7px #323232;
+  }
+  #navigation ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    text-decoration: none;
+    color: #413d3d;
+    text-shadow: 5px 5px 7px #141414, -5px -5px 7px #323232;
+    padding: 0 30px;
+  
+  }
+  #navigation ul li {
+    list-style-type: none;
+    padding: 5px;
+    transition: 0.25s ease;
+  }
+  #navigation ul li:hover {
+    padding: 12px;
+    border-radius: 23px;
+    background: #232323;
+    box-shadow: inset 13px 13px 16px #101010, inset -13px -13px 16px #363636;
+  }
+  #navigation ul {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Rounded_Elegance" Cambria, Cochin, Georgia, Times,
+      "Times New Roman", serif;
+  }
+  
+  #navigation ul li a:hover {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+  }
+  #navigation ul li img{
+    max-width: 5vw;
+    opacity: 0.8;
+  
+  }
+#accueil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10% 10% 10% 10%;
+
+}
+section{
+    border: 15px groove #ffffff;
+}
+section div h2{
+    font-family: 'Rounded_Elegance',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    background-color: white;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    overflow: hidden; 
+    word-break: break-all;
+    margin-top: 40%;
+    
+
+}
+section div p{
+    text-align: center;
+    font-family: 'Rounded_Elegance',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    background-color: white;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    overflow: hidden; 
+    word-break: break-all;
+    margin-top: 40%;
+    
+
+}
+
+.blog-posts{
+    /* width: min(1200px, 100%); */
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+    
+}
+  
+  .post{
+    margin-top: 50px;
+    width: calc(45% - 15px);
+    overflow: hidden;
+  }
+  
+  .post-img{
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+  }
+  
+  .post-content{
+    background-color: #ffffffdd;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60px);
+    transition: .3s linear; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .post-content h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .date a{
+    font-family: 'komika_axisregular',sans-serif;
+    text-decoration: none;
+    font-size: 3vw;
+    font-style: italic;
+    color:#413D3D;
+  } 
+  .date a:hover{
+      color: darkcyan;
+  }
+
+  .post:hover .post-img{
+    transform: translateY(20px);
+  }
+  
+  .post:hover .post-content{
+    transform: translateY(-80px);
+  }
+  
+  @media screen and (max-width: 900px){
+    #navigation ul {
+      display: grid;
+      grid-template-rows: repeat(5,1fr);
+      font-family: "Rounded_Elegance" Cambria, Cochin, Georgia, Times,
+        "Times New Roman", serif;
+  }
+
+  }

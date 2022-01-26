@@ -1,0 +1,421 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@font-face {
+    font-family: 'komika_axisregular';
+    src: url('font/komikax/KOMIKAX_-webfont.eot');
+    src: url('font/komikax/KOMIKAX_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/komikax/KOMIKAX_-webfont.woff2') format('woff2'),
+         url('font/komikax/KOMIKAX_-webfont.woff') format('woff'),
+         url('font/komikax/KOMIKAX_-webfont.ttf') format('truetype'),
+         url('font/komikax/KOMIKAX_-webfont.svg#komika_axisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Rounded_Elegance';
+    src: url('font/rounded/Rounded_Elegance.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    /* background avec image violet,jaune,noir */
+    /* background-image: url(media/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw; */
+    background: #232323;
+  
+}
+  /* test background avec image svg */
+/* .background{
+    height: 75vh;
+    width: 100%;
+    background: #232222;
+}
+@media screen and (max-width:590px){
+    .background{
+        height: 85vh;
+    }
+}
+.fond-ellipse{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    display: block;
+} */
+ #titre{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    /* banniere titre de base sur fond blanc */
+    /* background-color: whitesmoke;
+    opacity: 0.7;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-radius: 50px;
+    box-shadow: -10px 12px 25px 0px rgba(0,0,0,0.53); */
+    border-radius: 25px;
+    background: #232323;
+    box-shadow:  5px 5px 7px #141414,
+                 -5px -5px 7px #323232;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+h1{
+    font-family: 'Rounded_Elegance', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#413D3D;
+    text-align: center;
+    font-size: 15vw;
+    font-weight: bold;
+    /* text-shadow: 10px 10px 4px rgba(20,20,20,1); */
+    text-shadow:  5px 5px 7px #141414,
+    -5px -5px 7px #323232;
+    
+} 
+h2{
+    font-family: 'Rounded_Elegance', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#413D3D;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4vw;
+    text-shadow:  5px 5px 7px #141414,
+    -5px -5px 7px #323232;
+   
+
+}
+#navigation{  
+    display: inline-block;
+    text-align: center;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 10px 10px 10px 10px;
+    box-shadow: -10px 12px 25px 0px rgba(0,0,0,0.53);
+    border-radius: 10px;
+}
+#navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+#navigation ul li{
+    list-style-type: none;
+}
+#navigation ul{
+    font-size:2.5rem;
+    font-family: 'Rounded_Elegance' Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#navigation ul li a:hover{
+    color: darkcyan;
+}
+#accueil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10% 10% 10% 10%;
+
+}
+section{
+    border: 15px groove #ffffff;
+}
+section div h2{
+    font-family: 'Rounded_Elegance',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    background-color: white;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    overflow: hidden; 
+    word-break: break-all;
+    margin-top: 40%;
+    
+
+}
+section div p{
+    text-align: center;
+    font-family: 'Rounded_Elegance',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    background-color: white;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    overflow: hidden; 
+    word-break: break-all;
+    margin-top: 40%;
+    
+
+}
+/* mes rubriques */
+
+/* #cards{
+
+    background-color: white;
+    background-image: url('media/dbz.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    width: 25vh;
+    margin: 10% 0;
+}
+#figurine-statue{
+    background-color: white;
+    background-image: url('media/dbz.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    width: 25vh;
+    margin: 10% 0;
+}
+
+#jeux-video{
+    background-color: white;
+    background-image: url('media/dbz.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 25vh;
+    width: 25vh;
+    margin: 10% 0;
+}
+#sneakers{
+    background-color: white;
+    background-image: url('media/dbz.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    width: 25vh;
+    margin: 10% 0;
+} */
+
+/* test rubriques format blog-post */
+.blog-posts{
+    /* width: min(1200px, 100%); */
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+    
+}
+  
+  .post{
+    margin-top: 50px;
+    width: calc(45% - 15px);
+    overflow: hidden;
+    font-size: 3vw;
+    font-style: italic;
+    font-family: 'komika_axisregular',sans-serif;
+  }
+  
+  .post-img{
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+  }
+  
+  .post-content{
+    background-color: #ffffffdd;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60px);
+    transition: .3s linear; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .post-content h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .theme a{
+    font-family: 'komika_axisregular',sans-serif;
+    text-decoration: none;
+    font-size: 3vw;
+    font-style: italic;
+    color:#413D3D;
+  } 
+
+  .post:hover .post-img{
+    transform: translateY(20px);
+  }
+  
+  .post:hover .post-content{
+    transform: translateY(-80px);
+  }
+  
+  @media screen and (max-width: 1200px){
+    .blog-posts{
+      justify-content: center;
+    }
+    .post{
+      width: min(600px, 100%);
+    }
+  }
+
+  /* -----------------------------------------------------------------------------------------  */
+/* FOOTER */
+footer {
+  border-radius: 25px;
+  background: #232323;
+  box-shadow: 5px 5px 7px #141414, -5px -5px 7px #323232;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  color: rgba(255, 255, 255, 0.767);
+  border-top: 2px dashed rgba(255, 255, 255, 0.764);
+}
+
+.content-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+
+}
+.bloc{
+  margin-top: 20px;
+  
+}
+
+/* contact */
+
+.footer-contact h3,
+
+.footer-copyright h3,
+
+.footer-medias h3 {
+  font-size: 2rem;
+  padding: 20px;
+  text-decoration: underline;
+  box-shadow: 5px 5px 7px #141414, -5px -5px 7px #323232;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.footer-contact a{
+  box-shadow: 5px 5px 7px #141414, -5px -5px 7px #323232;
+  position: relative;
+  top: 30px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.footer-contact a:hover {
+  color: #239ee0cb;
+  background: #232323;
+  box-shadow: inset 13px 13px 16px #101010, inset -13px -13px 16px #363636;
+  border: 1px dashed #239ee0cb;
+}
+
+/* copyright */
+.copyright {
+  font-size:1.5rem ;
+  margin-top: 30px;
+}
+
+
+/* Medias */
+
+.media-list img{
+  width: 50px;
+  margin: 10px 10px;
+
+  
+}
+ .media-list li{
+   display: flex;
+   align-items: center
+   ;
+ }
+ .media-list a{
+   font-size: 1.5rem;
+ }
+
+/* Media queries */
+
+@media screen and (max-width: 1000px) {
+
+
+
+  .content-footer {
+
+      max-width: 100%;
+
+      flex-wrap: wrap;
+
+  }
+
+  .bloc {
+
+      flex-basis: auto;
+
+      margin: 20px 20px;
+
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .content-footer {
+
+      justify-content: center;
+
+      padding-top: 30px;
+
+  }
+
+  .bloc {
+
+      flex-basis: 70%;
+
+      margin: 10px;
+
+  }
+
+  .footer-contact h3,
+
+  .footer-services h3,
+
+  .footer-schedule h3,
+
+  .footer-medias h3 {
+
+      padding-bottom: 5px;
+
+  }
+
+
+
+}
+
+  
