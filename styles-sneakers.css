@@ -339,11 +339,8 @@ button {
 @media screen and (max-width: 400px){
   .image-card{
     width: 250px;
-<<<<<<< HEAD
-    height: 180px;
-=======
-    height: 140px;
->>>>>>> c9fd8b580b00466ff80a9ba9a880986067ea02d3
+    height: 160px;
+ 
     border-radius: 20px;
 
   }
@@ -351,11 +348,7 @@ button {
   .card{
     position: relative;
     width: 250px;
-<<<<<<< HEAD
-    height: 180px;
-=======
-    height: 140px;
->>>>>>> c9fd8b580b00466ff80a9ba9a880986067ea02d3
+    height: 160px;
     cursor: pointer;
     transform-style: preserve-3d;
     transition: 0.5s;
